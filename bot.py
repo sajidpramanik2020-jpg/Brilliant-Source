@@ -9,8 +9,8 @@ from telegram.ext import (
 )
 
 # ─── CONFIG ──────────────────────────────────────────────────────────────────
-BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
-ADMIN_ID = int(os.getenv("ADMIN_ID", "123456789"))  # আপনার Telegram User ID
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8988458984:AAFH29WzrrjorSgbg4D6Q5tEH5lRkWx_oqw")
+ADMIN_ID = int(os.getenv("ADMIN_ID", "8296647756"))  # আপনার Telegram User ID
 WEB_APP_URL = os.getenv("WEB_APP_URL", "https://your-app.onrender.com")  # আপনার Render URL
 MIN_WITHDRAW = 50  # সর্বনিম্ন উইথড্র (টাকা)
 AD_REWARD = 2      # প্রতি Ad দেখায় পয়েন্ট (1 পয়েন্ট = 1 টাকা)
